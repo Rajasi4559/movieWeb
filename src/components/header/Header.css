@@ -1,0 +1,101 @@
+.header {
+    margin: 0 2.5rem;
+    padding: 0.5rem 0;
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+}
+
+.headerLeft, .headerRight {
+    display: flex;
+    align-items: center;
+
+}
+
+a > span{
+    margin: 0 30px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: white;
+}
+
+a > span:hover {
+    color: red;
+}
+
+.header__icon {
+    height: 50px;
+    border-radius: 90%;
+    cursor: pointer;
+}
+.header__name {
+    width: 140px;
+    height: 50px;
+    border: solid 3px yellow;
+    cursor: pointer;
+}
+
+.user__avatar {
+    font-size: 2rem;
+}
+
+.genre{
+    font-size: large;
+    backdrop-filter: blur(5px);
+}
+.genres{
+    font-size: larger;
+    width: 120px;
+    height:20px;
+    opacity: 0.6;
+    backdrop-filter: blur(5px);
+}
+
+
+.dropbtn {
+    background-color: #ee0a74;
+    border-radius: 10%;
+    color: white;
+    padding: 10px;
+    padding-left: 20px ;
+    padding-right: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #e4caee;
+    min-width: 200px;
+    opacity: 0.8;
+    box-shadow: 0px 8px 16px 0px rgba(53, 22, 187, 0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    font-style: oblique;
+    font-weight: 510;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #992baf;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #e21e3f;}

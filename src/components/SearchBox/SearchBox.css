@@ -1,0 +1,42 @@
+.movie__list {
+    padding: 0 3rem 3rem 3rem;
+}
+
+.list__title {
+    text-align: center; 
+    font-size: 1.75rem;
+    margin:  2.5rem;
+}
+
+.list__cards {
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+}
+.search_input {
+    width:500px;
+    height:40px;
+    padding: 6px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 20px;
+  }
+  .search_box {
+    border-radius: 5px;
+    text-align: center;
+  }
+  @media screen and (max-width: 600px) {
+    .screen_input {
+      float:none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .search_box {
+        text-align: center;
+      }
+  }
