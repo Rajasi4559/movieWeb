@@ -6,8 +6,7 @@ const Header = () => {
     return (
         <div className="header">
             <div className="headerLeft">
-                <Link to="/"><img className="header__icon" src="https://pbs.twimg.com/profile_images/1423719077105881088/9UE88_bE_400x400.jpg" /></Link>
-                <Link to="/"><img className="header__name" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9cAgt8lPSNYrqzF_7-41n535ZHKzpVr34tA&usqp=CAU" /></Link>
+                <Link to="/"><img className="header__icon" src="https://images.squarespace-cdn.com/content/v1/555f43ace4b09cfed988524e/1622001094395-XM59GNTK4WGESXIFTI42/Maniac00.jpg?format=750w" /></Link>
                 <Link to="/" style={{textDecoration: "none"}}><span>Home</span></Link>
                 <Link to="/movies/popular" style={{textDecoration: "none"}}><span>Popular</span></Link>
                 <Link to="/movies/top_rated" style={{textDecoration: "none"}}><span>Top Rated</span></Link>

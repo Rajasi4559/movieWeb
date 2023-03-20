@@ -1,6 +1,6 @@
 .header {
     margin: 0 2.5rem;
-    padding: 0.5rem 0;
+    padding: 1rem 0;
     align-items: center;
     display: flex;
     justify-content:space-between;
@@ -24,6 +24,7 @@ a > span:hover {
 }
 
 .header__icon {
+    width: 120px;
     height: 50px;
     border-radius: 90%;
     cursor: pointer;
@@ -53,7 +54,7 @@ a > span:hover {
 
 
 .dropbtn {
-    background-color: #ee0a74;
+    background-color: #f31f54;
     border-radius: 10%;
     color: white;
     padding: 10px;
